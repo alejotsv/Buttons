@@ -5,6 +5,7 @@ import java.awt.*;
 import java.util.ArrayList;
 
 public class ButtonsFrame extends JFrame {
+
     ButtonsFrame(String title, Dimension d, ArrayList<JButton> buttons){
         super(title);
         setSize(d);
