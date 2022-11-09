@@ -12,6 +12,7 @@ public class ButtonsFrame extends JFrame {
         for (JButton button : buttons) {
             panel.add(button);
         }
+        setDefaultCloseOperation(EXIT_ON_CLOSE);
         setVisible(true);
     }
 }
