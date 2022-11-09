@@ -7,7 +7,7 @@ import java.util.Arrays;
 
 public class CreateButtons {
     public static void main(String[] args) {
-        Dimension d = new Dimension(1000, 1000)
+        Dimension d = new Dimension(1000, 1000);
         ArrayList<JButton> buttons = new ArrayList<JButton>();
         ArrayList<String> buttonText = new ArrayList(Arrays.asList("Save", "Update", "Cancel"));
         for (String button : buttonText) {
@@ -15,6 +15,6 @@ public class CreateButtons {
             buttons.add(btn);
         }
 
-        ButtonsFrame frame = new ButtonsFrame();
+        ButtonsFrame frame = new ButtonsFrame("Test buttons", d, buttons);
     }
 }

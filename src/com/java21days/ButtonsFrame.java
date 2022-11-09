@@ -13,6 +13,9 @@ public class ButtonsFrame extends JFrame {
             panel.add(button);
         }
         setDefaultCloseOperation(EXIT_ON_CLOSE);
+        setLocationRelativeTo(null);
+        add(panel);
+        pack();
         setVisible(true);
     }
 }
